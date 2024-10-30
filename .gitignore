@@ -1,3 +1,4 @@
 # Ignorar arquivos e pastas de configuração do Eclipse
-.classpath .project
+.classpath
+.project
 .settings/
