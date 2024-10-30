@@ -20,15 +20,15 @@ public class Exe01 {
 
 		//CALCULANDO O ABONO SALARIAL PROPORCIONAL AOS MESES TRABALHADOS 
         
-        abono = (salariomensal / 12) * mesestrabalhados;
+		abono = (salariomensal / 12) * mesestrabalhados;
 
-        salarioLiq = salariomensal  + abono;
+		salarioLiq = salariomensal  + abono;
         
-        //SAIDA DE DDADOS
+		//SAIDA DE DDADOS
+		
+		System.out.printf("Seu Salario liquido + seu abono é: R$ %.2f" , salarioLiq );
         
-        System.out.printf("Seu Salario liquido + seu abono é: R$ %.2f" , salarioLiq );
-        
-        reader.close();
+		reader.close();
 	
 	}
 
