@@ -1,0 +1,40 @@
+/*
+ * Elabore um algoritmo em Java, que leia o Salário Bruto, o Adicional Noturno, as Horas Extras 
+ * e os Descontos de um Colaborador, em variáveis do tipo float e exiba na tela o 
+ * Salário Líquido.package variaveiseoperadores;
+ */
+
+import java.util.Scanner;
+
+public class Exe03 {
+
+public static void main(String[] args)	{
+		
+		Scanner reader = new Scanner(System.in);
+		
+		float salarioBruto, comissao,  horasExtras, salarioLiq;
+		
+		System.out.print("Digite o seu salario: R$ ");
+		salarioBruto = reader.nextFloat();
+		
+		System.out.print("Digite sua comissão : R$  ");
+		comissao = reader.nextFloat();
+
+		System.out.print("Horas Extras este mês : ");
+		horasExtras = reader.nextFloat();
+
+		//CALCULANDO O SALARIO LIQUIDO - o VT CALCULADO PELA PROPIA EMPRESA 
+        
+        float vtDesconto = (salarioBruto * 0.06f);
+
+        salarioLiq = (float) (salarioBruto + comissao + (horasExtras * 8) - vtDesconto);
+        
+        
+        System.out.printf("Salário liquido (com %.2f referente ao VT descontado): R$ %.2f" , vtDesconto, salarioLiq );
+        
+        reader.close();
+	
+	}
+
+}
+}

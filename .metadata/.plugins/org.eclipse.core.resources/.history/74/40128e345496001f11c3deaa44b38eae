@@ -1,0 +1,21 @@
+package variaveiseoperadores;
+
+import	java.util.Scanner; 
+
+public class exe01 {
+	
+	public static void main(String[] args) {
+		
+		Scanner escrever = new Scanner(System.in);
+		
+		float salario, abono;
+		
+		System.out.println("Digite o seu salario: ");
+		salario = escrever.nextFloat();
+		
+		System.out.println("Digite seu Abono: ");
+		abono = escrever.nextFloat();
+		
+	}
+
+}

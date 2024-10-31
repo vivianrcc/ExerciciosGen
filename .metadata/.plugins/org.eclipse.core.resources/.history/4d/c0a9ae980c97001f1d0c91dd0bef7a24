@@ -1,0 +1,46 @@
+/*
+ * LEIA QUATRO VALORES FLOAT (N1, N2, N3,N4).
+ * A SEGUIR, CALCULE E MOSTRE A DIFERENÇA DO PRODUTO
+ * ENTRE N1 E N2 PELO PRODUTO ENTRE O N3 E N4. 
+*/
+
+package variaveiseoperadores;
+
+import java.util.Scanner;
+
+public class Exe04 {
+	
+	public void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		//float n1 = 5.0f, n2 = 6.0f, n3 = 7.0f, n4 = 8.0f;
+		
+		float n1, n2, n3, n4;
+		
+		//ENTRADA DE DADOS 
+		
+		System.out.println("Digite o primeiro valor:");
+		n1 = scanner.nextFloat();
+		
+		System.out.println("Digite o segundo valor:");
+		n2 = scanner.nextFloat();
+		
+		System.out.println("Digite o terceiro valor:");
+		n3 = scanner.nextFloat();
+		
+		System.out.println("Digite o terceiro valor");
+		n4 = scanner.nextFloat();
+		
+		//CALCULANDO A DIFERENÇA 
+		
+		float calculo = (n1 * n2) – (n3 * n4);
+		
+		System.out.printf("A diferença é:" + calculo;
+		
+		scanner.close();
+					
+		}
+
+}
+//CODECAT

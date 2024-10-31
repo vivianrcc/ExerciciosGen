@@ -1,0 +1,42 @@
+/*
+ * Elabore um algoritmo em Java que leia 4 notas de um participante, 
+ * em variáveis do tipo float e exiba na tela a média final do participante.
+ */
+package variaveiseoperadores;
+
+import	java.util.Scanner;
+
+public class Exe02 {
+	
+	public static void main(String[] args) {
+		
+		Scanner	scanner = new Scanner(System.in); 
+		
+		float nota1b, nota2b, nota3b, nota4b, notafinal; 
+		
+		//ENTRADA DE DADOS
+		
+		System.out.print("Digite a nota do 1 Bimestre: ");
+		nota1b = scanner.nextFloat();
+		
+		System.out.print("Digite a nota do 2 bimestre: ");
+		nota2b = scanner.nextFloat();
+		
+		System.out.print("Digite a nota do 3 bimestre: ");
+		nota3b = scanner.nextFloat();
+		
+		System.out.print("Digite a nota do 4 bimestre: ");
+		nota4b = scanner.nextFloat();
+		
+		//CALCULANDO A MEDIA DO ALUNO 
+		
+		notafinal = (nota1b + nota2b + nota3b + nota4b )/ 4f;
+		
+		System.out.printf("Sua nota final é: %.2f \n", notafinal);
+		
+		scanner.close();
+		
+		
+	}
+
+}
