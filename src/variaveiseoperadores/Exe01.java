@@ -19,15 +19,15 @@ public class Exe01 {
 		mesestrabalhados = reader.nextFloat();
 
 		//CALCULANDO O ABONO SALARIAL PROPORCIONAL AOS MESES TRABALHADOS 
-        
+		
 		abono = (salariomensal / 12) * mesestrabalhados;
-
+		
 		salarioLiq = salariomensal  + abono;
         
-		//SAIDA DE DDADOS
+		//SAIDA DE DADOS
 		
 		System.out.printf("Seu Salario liquido + seu abono é: R$ %.2f" , salarioLiq );
-        
+		
 		reader.close();
 	
 	}

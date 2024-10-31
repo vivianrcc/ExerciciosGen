@@ -12,7 +12,7 @@ public class Exe02 {
 		
 		Scanner	scanner = new Scanner(System.in);  
 		
-		//COMETAR A ENTRADA DE DADOS SE PREFERIR USAR DADOS PREDEFINIDOS NO FLOAT AQUI ABAIXO!.
+		//COMETAR A ENTRADA DE DADOS SE PREFERIR USAR Do FLOAT AQUI EMBAIXO. 
 		
 		//float nota1b = 10.0f, nota2b = 8.0f, nota3b = 7.0f, nota4b = 7.5f; 
 		

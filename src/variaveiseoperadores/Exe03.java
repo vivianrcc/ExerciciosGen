@@ -16,7 +16,7 @@ public class Exe03 {
 		System.out.println("Digite o valor de seu salário mensal:R$");
 		float salarioBruto = reader.nextFloat();
 		
-		System.out.println("Digite o número de horas trabalhadas à noite (Adicional Noturno):");
+		System.out.println("Digite o número de horas (Adicional Noturno):");
 		float horasadicionalnoturno = reader.nextFloat();
 
 		System.out.println("Quantas horas extras você tem  este mês:");
@@ -35,12 +35,11 @@ public class Exe03 {
 		
 		//CALCULANDO O SALARIO LIQUIDO 
         
-        float salarioLiq = salarioBruto + adicionalnoturno +(horasExtras *  5) - descontos;
+		float salarioLiq = salarioBruto + adicionalnoturno +(horasExtras *  5) - descontos;
         
+		System.out.printf("Salário liquido é:\nR$ %.2f", salarioLiq);
         
-        System.out.printf("Salário liquido é:\nR$ %.2f", salarioLiq);
-        
-        reader.close();
+		reader.close();
 	
 	}
 
