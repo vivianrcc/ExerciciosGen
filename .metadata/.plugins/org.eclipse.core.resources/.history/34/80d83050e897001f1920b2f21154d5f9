@@ -44,7 +44,6 @@ public class Exe01 {
 		if(soma == c) {
 			System.out.println("A Soma de A + B é igual do que C");
 		}
-		
 		scanner.close();		
 	}
 }
