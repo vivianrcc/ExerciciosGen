@@ -1,2 +1,15 @@
 .metadata/ .org.eclipse.core.resources/ .org.eclipse.e4.workbench/ *.snap .metadata/
         condicionais/.settings/
+.metadata/
+
+condicionais/.classpath
+
+condicionais/.project
+
+condicionais/.settings/
+
+variaveiseoperadores/.classpath
+
+variaveiseoperadores/.project
+
+variaveiseoperadores/.settings/
