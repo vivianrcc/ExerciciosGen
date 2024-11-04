@@ -65,9 +65,9 @@ public class Exe06Switch {
 			default:
 				System.out.println("Número inválido! Deve ser de 1 a 6.");
             
-            // ENCERRA O PROGRAMA SE O CODIGO NAO FOR VALIDO 
-            scanner.close();
-            return; 
+				// ENCERRA O PROGRAMA SE O CODIGO NAO FOR VALIDO 
+				scanner.close();
+				return; 
 		}
     
 		// ENTRADA DE SALARIO ATUAL 
