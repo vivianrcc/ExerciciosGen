@@ -21,7 +21,7 @@ public class Lista02While {
 
 		// ENTRADA DE DADOS E INICIO DO WHILE
 
-		System.out.println("Digite uma idade: \nO programa se encerra se digitar um valor -");
+		System.out.println("Digite uma idade:\nO programa se encerra se digitar um valor negativo");
 
 		while (true) {
 			idade = scanner.nextInt();
@@ -39,8 +39,8 @@ public class Lista02While {
 		}
 
 		// SAIDA DE DADOS
-		System.out.println("Toatal de pessoas menores que 21 anos: " + menores);
-		System.out.println("Toatal de pessoas maiores que 50 anos: " + maiores);
+		System.out.println("Total de pessoas menores que 21 anos: " + menores);
+		System.out.println("Total de pessoas maiores que 50 anos: " + maiores);
 		
 		scanner.close();
 		
