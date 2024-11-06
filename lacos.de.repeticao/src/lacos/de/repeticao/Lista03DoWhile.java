@@ -6,7 +6,7 @@ package lacos.de.repeticao;
 
 import java.util.Scanner;
 
-public class Exe01DoWhile {
+public class Lista03DoWhile {
 	
 	public static void main(String[] args) {
 		
