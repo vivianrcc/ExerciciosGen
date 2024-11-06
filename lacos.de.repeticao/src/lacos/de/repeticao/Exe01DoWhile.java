@@ -27,7 +27,7 @@ public class Exe01DoWhile {
         } while (numero != 0); 
 
         // SAIDA DE DADOS (SOMA)
-        System.out.println("A soma dos números positivos digitados é: " + somaPositivos);
+        System.out.println("A soma dos números + digitados é: " + somaPositivos);
 
         scanner.close(); 
     }
