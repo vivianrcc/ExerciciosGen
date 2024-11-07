@@ -1,15 +1,23 @@
+
+# Ignorar a pasta bin
 .metadata/
+/bin/
 
 condicionais/bin
 
 condicionais/.classpath
+# Ignorar arquivos de configuração do Eclipse
 
 condicionais/.project
+.classpath
 
 condicionais/.settings/
+.project
 
 variaveiseoperadores/.classpath
+.settings/
 
+vetores.matrizes/.classpath/.project/.settings/.bin
 variaveiseoperadores/.project
 
 variaveiseoperadores/.settings/
