@@ -13,6 +13,43 @@
  */
 package collection;
 
+import java.util.HashSet;
+import java.util.Set;
+import java.util.Scanner;
+
 public class Exe04CollectionSet {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+
+		// CRIANDO A COLLECTION SET DO TIPO INTEGER
+		Set<Integer> valores = new HashSet<Integer>();
+
+		valores.add(1);
+		valores.add(2);
+		valores.add(3);
+		valores.add(4);
+		valores.add(5);
+		valores.add(6);
+		valores.add(7);
+		valores.add(8);
+		valores.add(9);
+		valores.add(10);
+
+		// ENTRADA DE DADOS
+
+		System.out.println("Digite um número: ");
+		int numBuscado = scanner.nextInt();
+
+		// VERIFICANDO SE O NÚMERO ESTÁ NO SET
+		if (valores.contains(numBuscado)) {
+			System.out.println("O número " + numBuscado + " foi Encontrado!");
+		} else {
+			System.out.println("O número " + numBuscado + " não foi encontrado!");
+		}
+
+		scanner.close();
+
+	}
 
 }
