@@ -16,35 +16,42 @@ public class Exe02ArrayList {
 	
 	public static void main(String[] args) {
 		
-		//CRIANDO A COLLECTION ARRAYLIST DO TIPO INTEIRO
-		ArrayList<Integer> numeros = new ArrayList<Integer>();
-		numeros.add(1);
-		numeros.add(2);
-		numeros.add(3);
-		numeros.add(4);
-		numeros.add(5);
-		numeros.add(6);
-		numeros.add(7);
-		numeros.add(8);
-		numeros.add(9);
-		numeros.add(0);
-		
-		//ENTRADA DE DADOS
-		Scanner scanner = new Scanner(System.in);
-		
-		System.out.println("Digite um número inteiro: ");
-		int numeroBuscado = scanner.nextInt();
-		
-		//VERIFICANDO A POSIÇÃO
-		int posicao = numeros.indexOf(numeroBuscado);
+        // CRIANDO A COLLECTION ARRAYLIST DO TIPO INTEIRO
+        ArrayList<Integer> numeros = new ArrayList<Integer>();
+        numeros.add(1);
+        numeros.add(2);
+        numeros.add(3);
+        numeros.add(4);
+        numeros.add(5);
+        numeros.add(6);
+        numeros.add(7);
+        numeros.add(8);
+        numeros.add(9);
+        numeros.add(0);
+
+        // ENTRADA DE DADOS
+        Scanner scanner = new Scanner(System.in);
         
-        if (posicao != -1) {
-            System.out.println("O número inserido " + numeroBuscado + " foi localizado na posição: " + posicao);
-        } else {
-            System.out.println("O número inserido " + numeroBuscado + " não foi encontrado!");
+        while (true) {
+            System.out.print("Digite um número inteiro (ou -1 para sair): ");
+            int numeroBuscado = scanner.nextInt();
+
+            // CONDIÇÃO PARA SAIR DO LOOP
+            if (numeroBuscado == -1) {
+                System.out.println("Saindo do programa.");
+                break; 
+            }
+
+            // VERIFICANDO A POSIÇÃO
+            int posicao = numeros.indexOf(numeroBuscado);
+
+            if (posicao != -1) {
+                System.out.println("O número inserido " + numeroBuscado + " foi localizado na posição: " + posicao);
+            } else {
+                System.out.println("O número inserido " + numeroBuscado + " não foi encontrado!");
+            }
         }
 
         scanner.close();
-	}
-
+    }
 }
