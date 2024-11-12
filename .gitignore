@@ -1,4 +1,7 @@
-
+estrutura.de.dados/.classpath
+estrutura.de.dados/.settings
+estrutura.de.dados/.project
+estrutura.de.dados/bin
 # Ignorar a pasta bin
 .metadata/
 /bin/
