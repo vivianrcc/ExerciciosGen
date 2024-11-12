@@ -65,7 +65,7 @@ public class Exe01Fila {
 					System.out.println("A fila está vazia. Não há clientes para chamar.");
 				} else {
 					String chamandoCliente = filaDeClientes.poll();
-					System.out.println("Cliente " + chamandoCliente + " chamado.");
+					System.out.println("Cliente " + chamandoCliente + " foi chamado.");
 				}
 				break;
 
